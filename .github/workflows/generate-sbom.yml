@@ -2,7 +2,7 @@ name: Generate SBOM for CNCF Projects
 
 on:
   schedule:
-    # Run weekly on Sunday at 02:00 UTC
+    # Run daily at 02:00 UTC
     - cron: '0 2 * * *'
   workflow_dispatch:
     inputs:
